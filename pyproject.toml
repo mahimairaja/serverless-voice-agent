@@ -9,6 +9,7 @@ dependencies = [
     "livekit-plugins-ai-coustics>=0.3.0",
     "livekit-plugins-deepgram>=1.6.8",
     "livekit-plugins-openai>=1.6.8",
+    "modal>=1.5.3",
     "python-dotenv>=1.2.2",
     "voicegateway[dashboard,livekit]>=0.22.0",
 ]

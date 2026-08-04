@@ -149,8 +149,12 @@ activemq-data/
 
 # Environments
 .env
+.env.local
 .envrc
 .venv
+
+# voicegateway's local telemetry database, kept per project
+.voicegw/
 env/
 venv/
 ENV/

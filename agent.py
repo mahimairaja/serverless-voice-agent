@@ -18,7 +18,7 @@ from livekit.plugins.openai import LLM
 
 logger = logging.getLogger("agent")
 
-load_dotenv(".env.local")
+load_dotenv()
 
 
 class Assistant(Agent):
