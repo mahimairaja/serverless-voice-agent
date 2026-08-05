@@ -2772,7 +2772,7 @@ requires-dist = [
     { name = "livekit-plugins-openai", specifier = ">=1.6.8" },
     { name = "modal", specifier = ">=1.5.3" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
-    { name = "voicegateway", extras = ["dashboard", "livekit"], specifier = ">=0.22.0" },
+    { name = "voicegateway", extras = ["dashboard", "livekit"], specifier = ">=0.22.1" },
 ]
 
 [[package]]
@@ -3044,7 +3044,7 @@ wheels = [
 
 [[package]]
 name = "voicegateway"
-version = "0.22.0"
+version = "0.22.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiosqlite" },
@@ -3063,9 +3063,9 @@ dependencies = [
     { name = "typer" },
     { name = "voice-prices" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e6/de/f2f40779cc0bc75ec3ee42021c7360bff02fb31f07892bfe5694f325f8a6/voicegateway-0.22.0.tar.gz", hash = "sha256:5e077ca40d5c495773de25691dfee1af9afbac8da41edbde470b3e93b5405612", size = 1820181, upload-time = "2026-08-03T03:58:49.009Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/7e/98/dd636400409c154c5474c7f7bdedbd68c2ba19c45602cebca8862370cb9e/voicegateway-0.22.1.tar.gz", hash = "sha256:59598f146e8582dc96139858b28442239861cd61e0a1f3f67b437e85b7023766", size = 1916245, upload-time = "2026-08-05T01:06:28.464Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/9d/68/6d3c94fbade508eb42b2c1a0dfe3ebd19dba6cadf43ba0dac2e53d82e6e9/voicegateway-0.22.0-py3-none-any.whl", hash = "sha256:0723909104cc3fd67b83604024d812b616973d9242b901a8a53b0f09f4bcef51", size = 1244898, upload-time = "2026-08-03T03:58:47.691Z" },
+    { url = "https://files.pythonhosted.org/packages/90/c4/4bd6d188c92125e2de494da70849b6a8e0c6020cfcf34bd1b5a5dbe9c2c3/voicegateway-0.22.1-py3-none-any.whl", hash = "sha256:9311cb2588806b21f09374448bc3b8a56fd5057b08c88668e2c6e6efa405ad03", size = 1314907, upload-time = "2026-08-05T01:06:26.955Z" },
 ]
 
 [package.optional-dependencies]
